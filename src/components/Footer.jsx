@@ -8,6 +8,7 @@ const NAV = [
   { to: "/services", label: "Services" },
   { to: "/business-center", label: "Business Center" },
   { to: "/travels", label: "Klaud Travels" },
+  { to: "/klaud-hub", label: "Klaud Hub" },
   { to: "/contact", label: "Contact" },
 ];
 

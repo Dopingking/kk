@@ -1,5 +1,5 @@
 import React from "react";
-import { Printer, FileText, Globe2, IdCard, ScanLine, Layers } from "lucide-react";
+import { Printer, FileText, Globe2, Wallet, ScanLine, Layers } from "lucide-react";
 import Eyebrow from "../components/Eyebrow.jsx";
 import CTA from "../components/CTA.jsx";
 import SectionHeading from "../components/SectionHeading.jsx";
@@ -8,7 +8,7 @@ const SERVICES = [
   { icon: Printer, title: "Printing & photocopy", desc: "High-quality black & white and color printing with fast turnaround." },
   { icon: FileText, title: "Typing & document prep", desc: "Professional typing, CV formatting, project documentation and editing." },
   { icon: Globe2, title: "Online registrations", desc: "WAEC, JAMB, NYSC, recruitment forms and other online applications." },
-  { icon: IdCard, title: "Passport processing", desc: "Guidance and support for passport applications and related documentation." },
+  { icon: Wallet, title: "Passport processing", desc: "Guidance and support for passport applications and related documentation." },
   { icon: ScanLine, title: "CBT & exam services", desc: "Computer-based test registration and printing of confirmation slips." },
   { icon: Layers, title: "Lamination & binding", desc: "Neat binding and lamination services for projects and documents." },
 ];
@@ -36,7 +36,7 @@ export default function BusinessCenter() {
       </section>
 
       <section className="max-w-6xl mx-auto px-5 sm:px-8 py-16">
-        <SectionHeading eyebrow="What we offer" tone="blue" title="Our business center services" />
+        <SectionHeading eyebrow="What we offer" tone="blue" title="Business center services" />
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {SERVICES.map((s) => (
             <div key={s.title} className="p-6 rounded-2xl border border-slate-100 bg-white">

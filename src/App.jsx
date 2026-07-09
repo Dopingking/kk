@@ -7,6 +7,7 @@ import About from "./pages/About.jsx";
 import Services from "./pages/Services.jsx";
 import BusinessCenter from "./pages/BusinessCenter.jsx";
 import Travels from "./pages/Travels.jsx";
+import KlaudHub from "./pages/KlaudHub.jsx"; 
 import Contact from "./pages/Contact.jsx";
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/business-center" element={<BusinessCenter />} />
         <Route path="/travels" element={<Travels />} />
+         <Route path="/klaud-hub" element={<KlaudHub />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />

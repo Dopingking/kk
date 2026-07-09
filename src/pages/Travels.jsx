@@ -48,7 +48,7 @@ export default function Travels() {
       </section>
 
       <section className="max-w-6xl mx-auto px-5 sm:px-8 py-16">
-        <SectionHeading eyebrow="Services" tone="orange" title="Our travel services" />
+        <SectionHeading eyebrow="Services" tone="orange" title="Travel services" />
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {SERVICES.map((s) => (
             <div key={s.title} className="p-6 rounded-2xl border border-slate-100 bg-white">
